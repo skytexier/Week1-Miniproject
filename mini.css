@@ -1,0 +1,94 @@
+.b1 {
+    background-color: rgb(185, 185, 185);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.dropdown {
+    position: sticky;
+    top: 0px;
+    width: auto;
+}
+
+.u1 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(108, 143, 240);
+    color: rgb(0, 0, 0);
+}
+
+li {
+    float: left;
+    border-right: 1px solid black;
+}
+
+li :last-child {
+
+    border-right: none;
+}
+
+li a {
+    text-align: center;
+    display: block;
+    color: rgb(255, 255, 255);
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: darkgrey
+}
+.head {
+    position: auto;
+    display: block;
+    text-align: center;
+    background-color: rgb(76, 174, 230);
+    height: auto;
+    width: 99%;
+    border: 10px solid rgb(253, 253, 253);
+    padding: 0px, 0px;
+    top: 0;
+    left: 0;
+    font-size: 120%;
+}
+
+figure {
+    display: block;
+    margin: 5% auto 5%;
+    width: 50%;
+    border: 15px solid rgb(42, 181, 245); 
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    color: rgb(42, 181, 245);
+}
+
+footer {
+    text-align: center;
+    position: static;
+    color: aliceblue;
+    height: 100%;
+    position: auto;
+    background-color: black;
+    padding: 5px;
+    font-size: 150%;
+}
+
+#contactform {
+    padding: 20px;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+legend {
+    font-size: 200%;
+    color: rgb(30, 116, 156) ;
+}
+
+#text {
+    font-size: large;
+    padding-bottom: 50%;
+}
